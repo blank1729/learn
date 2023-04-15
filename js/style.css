@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#progress {
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
+  bottom: 0;
+  height: 10px;
+  width: 100vw;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+
+#progress + span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
+  bottom: 0;
+  height: 10px;
+  width:60%;
+  background-color: green;
+  box-sizing: border-box;
+  border: 2px solid green;
+
+}
+
+#time {
+  display: inline-block;
+  font-size: 8rem;
+  font-weight: 500;
+  color: indianred;
+  box-shadow: 5px 5px 10px rgb(110, 110, 110);
+  border-radius: 10px;
+  padding: 1rem;
+}

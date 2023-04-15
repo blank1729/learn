@@ -1,0 +1,5 @@
+.left-text {
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    height: 100vh;
+}

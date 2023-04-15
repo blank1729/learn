@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#time {
+    display: inline-block;
+    font-size: 8rem;
+    font-weight: 500;
+    color: rgb(112, 47, 240);
+    box-shadow: 5px 5px 10px rgb(110, 110, 110);
+    border-radius: 10px;
+    padding: 1rem;
+  }
